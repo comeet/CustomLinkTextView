@@ -14,6 +14,8 @@
 		3026C6FB1AB2479700D08FD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3026C6FA1AB2479700D08FD9 /* Images.xcassets */; };
 		3026C6FE1AB2479800D08FD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3026C6FC1AB2479800D08FD9 /* LaunchScreen.xib */; };
 		3026C70A1AB2479800D08FD9 /* LinkedLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3026C7091AB2479800D08FD9 /* LinkedLabelTests.m */; };
+		3026C7151AB247FC00D08FD9 /* NSMutableAttributedString+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3026C7141AB247FC00D08FD9 /* NSMutableAttributedString+additions.m */; };
+		3076BD841AB3154800A8C2A4 /* UnselectableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076BD831AB3154800A8C2A4 /* UnselectableTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3026C7031AB2479800D08FD9 /* LinkedLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3026C7081AB2479800D08FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3026C7091AB2479800D08FD9 /* LinkedLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedLabelTests.m; sourceTree = "<group>"; };
+		3026C7131AB247FC00D08FD9 /* NSMutableAttributedString+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+additions.h"; sourceTree = "<group>"; };
+		3026C7141AB247FC00D08FD9 /* NSMutableAttributedString+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+additions.m"; sourceTree = "<group>"; };
+		3076BD821AB3154800A8C2A4 /* UnselectableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnselectableTextView.h; sourceTree = "<group>"; };
+		3076BD831AB3154800A8C2A4 /* UnselectableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnselectableTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		3026C6EC1AB2479700D08FD9 /* LinkedLabel */ = {
 			isa = PBXGroup;
 			children = (
+				3076BD821AB3154800A8C2A4 /* UnselectableTextView.h */,
+				3076BD831AB3154800A8C2A4 /* UnselectableTextView.m */,
+				3026C7131AB247FC00D08FD9 /* NSMutableAttributedString+additions.h */,
+				3026C7141AB247FC00D08FD9 /* NSMutableAttributedString+additions.m */,
 				3026C6F11AB2479700D08FD9 /* AppDelegate.h */,
 				3026C6F21AB2479700D08FD9 /* AppDelegate.m */,
 				3026C6F41AB2479700D08FD9 /* ViewController.h */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3026C7151AB247FC00D08FD9 /* NSMutableAttributedString+additions.m in Sources */,
 				3026C6F61AB2479700D08FD9 /* ViewController.m in Sources */,
 				3026C6F31AB2479700D08FD9 /* AppDelegate.m in Sources */,
 				3026C6F01AB2479700D08FD9 /* main.m in Sources */,
+				3076BD841AB3154800A8C2A4 /* UnselectableTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				3026C70F1AB2479800D08FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3026C7101AB2479800D08FD9 /* Build configuration list for PBXNativeTarget "LinkedLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				3026C7121AB2479800D08FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
